@@ -1,0 +1,24 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "## 준비 1. npm i 2. npm install -g mkcert 3. mkcert create-ca 4. mkcert create-cert - 4번 까지 했다면 3에서 생성된 ca.key, ca.crt는 삭제해도 무방",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/read0more/node-proxy-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/read0more/node-proxy-server/issues"
+  },
+  "homepage": "https://github.com/read0more/node-proxy-server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
